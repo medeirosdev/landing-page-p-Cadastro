@@ -1,0 +1,273 @@
+/* Paleta De Cores
+color:#222126;
+color:#A6A6A6;
+color:#D9D9D9;
+background-image:linear-gradient(to bottom right, #8f8f8f , #A6A6A6 , #c4c2c2 , #D9D9D9);
+
+*/
+/* ----------------------------------------------------- Configurações gerais --------------------------------------------- */
+html{
+    height:100%
+}
+body{
+    margin:0;
+    padding:0;
+    background-image:linear-gradient(to bottom right, #B8D9D3 , #a4b9b6 , #6D9BA6 , #406973
+    );
+    background-repeat: no-repeat;
+    
+}
+
+/* ----------------------------------------------------- Configurações do corpo --------------------------------------------- */
+
+#corpo{
+    width:700px;
+    height: 1700px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:50px;
+    background-color:white;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.80), 0 12px 9px rgba(0,0,0,0.60);
+    
+}
+
+/* ----------------------------------------------------- Configurações imagens --------------------------------------------- */
+
+#container-imagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(to bottom right, #B8D9D3 , #a4b9b6 , #6D9BA6 , #406973
+    );
+    background-size: cover;
+}
+
+
+
+#montanhadiv{
+    width:700px;
+    height:300px;
+    background-image: url("montanha.jpeg");
+    background-size: cover;
+    background-position: 100%;
+}
+
+h3{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: monospace;
+    color:#1A1A1A;
+    position: absolute;
+    margin-left:115px;
+
+}
+.texto2{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: monospace;
+    color:#1A1A1A;
+    position: absolute;
+    margin-left:300px;
+
+}
+.texto3{
+    font-size: 15px;
+    margin-top: 100px;
+    font-family: monospace;
+    color:#1A1A1A;
+    position: absolute;
+    margin-left:200px;
+}
+
+.texto4{
+    font-size: 15px;
+    margin-top: 140px;
+    font-family: monospace;
+    color:#1A1A1A;
+    position: absolute;
+    margin-left:270px;
+}
+/* ----------------------------------------------------- Configurações Formulário --------------------------------------------- */
+#central{
+    display:flex;
+    flex-direction: column;
+}
+
+input{
+    border:none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline:none;
+    background:transparent;
+    top:3px;
+}
+
+.label1{
+    padding:7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-right:10px;
+    transition: 0.7s;
+
+}
+
+.label1:hover{
+    background-color: #6D9BA6;
+}
+
+#formdiv{
+    width:700px;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+
+.formdiv2{
+    width:700px;
+    height:150px;
+}
+
+#form1{
+    margin-bottom: 40px;
+}
+
+.input1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+}
+
+
+#section1{
+    width:700px;
+    height:300px;
+    background-color: #243B40 ;
+    display:flex;
+    flex-direction: row;
+}
+
+#section3{
+    margin-top:30px;
+    width:700px;
+    height:300px;
+    background-color: #243B40 ;
+}
+
+
+#section4{
+    width:700px;
+    height:300px;
+
+}
+#texto1{
+    color:white  ; 
+    width:300px;
+    font-size:18px;
+    font-weight: 200px;
+    text-indent: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top:60px;
+    margin-left:15px;
+}
+
+
+
+.form2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#listicon{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+/* ----------------------------------------------------- Configurações títulos --------------------------------------------- */
+
+h1{ text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: monospace;
+}
+
+h2{
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: monospace;
+}
+
+#titulo2{
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: monospace;
+    font-size:15px;
+
+}
+
+.plist{
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: monospace;
+    font-size: 17px;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.plist2{
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: monospace;
+    font-size: 17px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------------------- Configurações imagens --------------------------------------------- */
+.imagemlogo{
+    width:100px;
+    height: 100px;
+}
+
+
+#tabelaimg{
+    display:grid;
+    column-gap: 60px;
+    row-gap: 30px;
+    margin-left:110px;
+    margin-top:15px;
+    grid-template-columns: auto auto;
+}
+
+p{
+    font-family:monospace;
+}
+
+.iconimg{
+    width:50px;
+}
+
+.iconimg:hover{
+    scale:1.01;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    margin-right:40px;
+    margin-left:auto;
+}
